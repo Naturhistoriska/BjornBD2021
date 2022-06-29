@@ -1,0 +1,1 @@
+Shapefiler för sveriges län hämtade från [SCB](https://www.scb.se/hitta-statistik/regional-statistik-och-kartor/regionala-indelningar/digitala-granser/)
