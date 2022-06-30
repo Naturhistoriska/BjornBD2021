@@ -1,4 +1,4 @@
-Spillningsinventering björn, Norbottens län 2021
+Spillningsinventering björn, Norrbottens län 2021
 ================
 
 Detta bibliotek innehåller programkod och data som använts för
@@ -190,7 +190,9 @@ Figur 5 och 6 visas rotogram motsvarande anpassningen för honor och
 hanar. I en perfekt anpassning når de hängande staplarna precis till 0,
 här ser vi framför allt en något större frekvens än förväntat av
 individer som hittats en gång samt fler än fem gånger vilket indikerar
-en viss överspridning relativt Poissonfördelningen.
+en viss överspridning relativt Poissonfördelningen. En trolig effekt av
+detta är att de uppskattade fångstsannolikheterna är något optimistiska
+och populationstätheterna således underskattade.
 
 ``` r
 rootogram_ztp(fit_females$effort_fit) + ggtitle("Modellanpassning honor")
